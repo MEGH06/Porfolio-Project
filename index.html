@@ -86,17 +86,29 @@
     justify-content: center;
     column-gap: 2rem;
 }
-  .homehead h1{
-    background-image: url('https://e0.pxfuel.com/wallpapers/31/850/desktop-wallpaper-smoke-colors-abstract-1440p-resolution-background-and-2560-x-1440-color-smoke-thumbnail.jpg');
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-  }
-  .bodyhead p{
-    background-image: url('https://w0.peakpx.com/wallpaper/939/746/HD-wallpaper-smoke-red-colorful-abstract-purple-texture-white-pink-blue.jpg');
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-stroke: 0.1px rgb(251, 189, 189);
+  .bodyhead p {
+  background-image: url('https://w0.peakpx.com/wallpaper/939/746/HD-wallpaper-smoke-red-colorful-abstract-purple-texture-white-pink-blue.jpg');
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0.1px rgb(251, 189, 189);
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
 }
+
+.homehead h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  background-image: url('https://e0.pxfuel.com/wallpapers/31/850/desktop-wallpaper-smoke-colors-abstract-1440p-resolution-background-and-2560-x-1440-color-smoke-thumbnail.jpg');
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 0.1px rgb(251, 189, 189);
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 @media (max-width: 768px) {
       .homehead h1 {
         font-size: 2rem; /* Smaller font size for mobile */
@@ -115,11 +127,17 @@
         width: 100%; /* Full width CV button on mobile */
       }
     }
-    .btn.btn-primary {
-    border: 0.5px;
-    background-image: url('https://e0.pxfuel.com/wallpapers/31/850/desktop-wallpaper-smoke-colors-abstract-1440p-resolution-background-and-2560-x-1440-color-smoke-thumbnail.jpg');
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+  .btn.btn-primary {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 0.5px solid transparent;
+  background-image: url('https://e0.pxfuel.com/wallpapers/31/850/desktop-wallpaper-smoke-colors-abstract-1440p-resolution-background-and-2560-x-1440-color-smoke-thumbnail.jpg');
+  background-size: cover;
+  background-clip: text; 
+  color: transparent; 
+  text-align: center;
+  display: inline-block;
 }
 .btn.btn-primary:hover {
   border: 2px solid hsl(342, 70%, 78%);
